@@ -1,0 +1,5 @@
+package co.edu.uco.crosscutting.util.numeric;
+
+public class UtilNumeric {
+
+}

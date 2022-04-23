@@ -1,0 +1,3 @@
+module CrosCutting {
+	requires org.junit.jupiter.api;
+}
