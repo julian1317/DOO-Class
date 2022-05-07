@@ -5,7 +5,7 @@ public abstract class DAOFactory {
 	{
 		return null;
 	}	
-	public abstract void openConnection();
+	protected abstract void openConnection();
 	public abstract void getCoonection();
 	public abstract void closeConnectio();
 	public abstract void  commit();

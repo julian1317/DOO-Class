@@ -1,5 +1,7 @@
 package co.edu.uco.crosscutting.ultil.text;
-import static co.edu.uco.crosscutting.util.object.UtilObject.getUtilObject;;
+import static co.edu.uco.crosscutting.util.object.UtilObject.getUtilObject;
+
+import co.edu.uco.crosscutting.util.object.UtilObject;;
 public class UtilText {
 	public static final String EMPTY="";
 	private UtilText() {

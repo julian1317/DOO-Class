@@ -4,4 +4,9 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.params.converter.DefaultArgumentConverter"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.dto.StudentDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.factory.DAOFactory"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.factory.azuresql.AzureSqloDaoFactory"/>
 </qualifiedTypeNameHistroy>
