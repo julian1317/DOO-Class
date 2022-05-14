@@ -1101,3 +1101,367 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact co.edu.co.cro
 2022-05-06 21:22:56,246 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
 2022-05-06 21:22:56,246 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-05-06 21:22:56,247 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-06 21:27:02,470 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:27:02,471 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-06 21:27:02,472 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:27:02,473 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-06 21:27:03,543 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:27:03,543 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-06 21:27:03,544 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-06 21:27:03,544 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:41:58,797 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-10 11:53:01,458 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,471 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:53:01,473 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,474 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:53:01,609 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,609 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:53:01,610 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,611 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:53:01,687 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 11:53:01,690 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,691 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-10 11:53:01,692 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,693 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-10 11:53:01,749 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-10 11:53:01,749 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 11:53:01,751 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,752 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\main\resources
+2022-05-10 11:53:01,753 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:01,754 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\test\resources
+2022-05-10 11:53:02,017 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-10 11:53:02,017 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-10 11:53:02,017 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 11:53:02,019 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:02,020 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-10 11:53:02,022 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:02,023 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-10 11:53:02,053 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-10 11:53:02,053 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-10 11:53:02,053 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-10 11:53:02,053 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 11:53:02,055 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:02,057 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\main\resources
+2022-05-10 11:53:02,057 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:53:02,058 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\test\resources
+2022-05-10 11:53:05,019 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-10 11:53:05,019 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-10 11:53:05,019 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grades:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-10 11:53:05,019 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-10 11:53:05,019 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 11:53:07,690 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-10 11:53:07,691 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-10 11:53:07,693 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-10 11:53:07,703 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-10 11:53:07,705 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-10 11:53:07,705 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-10 11:53:07,705 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\ApiGrades\src\test\resources
+2022-05-10 11:55:57,476 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:55:57,477 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:55:57,478 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:55:57,479 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:56:33,304 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:56:33,305 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:56:33,308 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:56:33,309 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:57:54,407 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:57:54,408 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:57:54,409 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:57:54,410 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 11:59:53,502 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:59:53,503 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 11:59:53,503 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 11:59:53,504 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 12:01:13,407 [Worker-26: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-10 12:01:13,410 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:13,410 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-10 12:01:13,411 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:13,412 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-10 12:01:25,794 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:25,794 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-10 12:01:25,795 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:25,796 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-10 12:01:46,873 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:46,874 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-10 12:01:46,874 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:01:46,875 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-10 12:06:28,200 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:06:28,201 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 12:06:28,204 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:06:28,205 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 12:06:28,222 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:06:28,223 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-10 12:06:28,225 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:06:28,226 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-10 12:54:55,828 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:54:55,829 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 12:54:55,830 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:54:55,830 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-10 12:55:00,176 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:55:00,177 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-10 12:55:00,178 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-10 12:55:00,178 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-13 18:20:31,717 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-13 18:40:00,823 [Worker-8: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:00,844 [Worker-8: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:00,844 [Worker-8: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:36,992 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT @ C:\Users\MATEO\eclipse-workspace2\DataGrades\pom.xml.
+2022-05-13 18:40:37,000 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:37,000 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:37,000 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:37,740 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.ed.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\MATEO\eclipse-workspace2\ApiGrades\pom.xml.
+2022-05-13 18:40:38,211 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8.pom
+2022-05-13 18:40:38,323 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8.pom
+2022-05-13 18:40:38,338 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:38,339 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:38,339 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grades:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-13 18:40:38,339 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-13 18:40:38,339 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:38,395 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8.jar
+2022-05-13 18:40:38,770 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8.jar
+2022-05-13 18:40:39,135 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:BusinessLogicGrades:0.0.1-SNAPSHOT @ C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\pom.xml.
+2022-05-13 18:40:39,136 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:39,136 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-13 18:40:39,137 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:39,137 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:39,276 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.ed.uco.grades.api:ApiGrades:0.0.1-SNAPSHOT @ C:\Users\MATEO\eclipse-workspace2\ApiGrades\pom.xml.
+2022-05-13 18:40:39,293 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:39,293 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:39,293 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grades:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-13 18:40:39,293 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-13 18:40:39,293 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:41,501 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:41,502 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:41,502 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/BusinessLogicGrades: co.edu.uco.grades:BusinessLogicGrades:0.0.1-SNAPSHOT with classifier  to /BusinessLogicGrades/target/classes
+2022-05-13 18:40:41,502 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-13 18:40:41,502 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:41,723 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8-sources.jar
+2022-05-13 18:40:41,735 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:41,736 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 18:40:41,745 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:41,746 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 18:40:41,953 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:41,954 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:41,954 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:41,956 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:41,958 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 18:40:41,959 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:41,960 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 18:40:42,057 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/9.4.1.jre8/mssql-jdbc-9.4.1.jre8-sources.jar
+2022-05-13 18:40:42,120 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 18:40:42,120 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DataGrades: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT with classifier  to /DataGrades/target/classes
+2022-05-13 18:40:42,121 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 18:40:42,121 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 18:40:42,123 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:42,124 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\main\resources
+2022-05-13 18:40:42,125 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:42,126 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\test\resources
+2022-05-13 18:40:42,283 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.microsoft.sqlserver:mssql-jdbc:9.4.1.jre8
+2022-05-13 18:40:42,497 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre17/mssql-jdbc-10.2.0.jre17-sources.jar
+2022-05-13 18:40:42,852 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre17/mssql-jdbc-10.2.0.jre17-sources.jar
+2022-05-13 18:40:43,506 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.microsoft.sqlserver:mssql-jdbc:10.2.0.jre17
+2022-05-13 18:40:43,513 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.microsoft.sqlserver:mssql-jdbc:10.2.0.jre17
+2022-05-13 18:40:44,825 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-13 18:40:44,825 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-13 18:40:44,828 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-13 18:40:44,839 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-13 18:40:44,841 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-13 18:40:44,841 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-13 18:40:44,841 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\ApiGrades\src\test\resources
+2022-05-13 18:40:45,885 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:45,886 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 18:40:45,887 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:45,887 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 18:40:45,892 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:45,892 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\main\resources
+2022-05-13 18:40:45,893 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:40:45,894 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\BusinessLogicGrades\src\test\resources
+2022-05-13 18:40:45,930 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-13 18:40:45,930 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-13 18:40:45,931 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-13 18:40:45,931 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-13 18:40:45,932 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-13 18:40:45,932 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-13 18:40:45,932 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\ApiGrades\src\test\resources
+2022-05-13 18:49:27,502 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:49:27,503 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 18:49:27,504 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:49:27,505 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 18:50:35,364 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:50:35,365 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 18:50:35,366 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 18:50:35,367 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:00:39,432 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 19:00:39,435 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:00:39,436 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 19:00:39,437 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:00:39,437 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 19:07:45,631 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:07:45,632 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:07:45,633 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:07:45,634 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:08:11,744 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:08:11,745 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:08:11,747 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:08:11,747 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:11:28,707 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:11:28,707 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 19:11:28,708 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:11:28,708 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 19:13:46,239 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:13:46,240 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 19:13:46,241 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:13:46,242 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 19:14:01,129 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:14:01,130 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 19:14:01,131 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:14:01,132 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 19:15:01,799 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:15:01,800 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:15:01,801 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:15:01,802 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:15:22,913 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:15:22,914 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:15:22,914 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:15:22,915 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:16:49,427 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:16:49,432 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 19:16:49,433 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:16:49,434 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 19:19:18,239 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:19:18,240 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:19:18,241 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:19:18,241 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:19:33,694 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:19:33,695 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:19:33,696 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:19:33,697 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:23:10,301 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:23:10,302 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:23:10,302 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:23:10,303 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:35:11,911 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:35:11,911 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-13 19:35:11,912 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:35:11,913 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-13 19:35:33,792 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:35:33,793 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-13 19:35:33,793 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:35:33,794 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-13 19:36:16,201 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:36:16,202 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-13 19:36:16,203 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:36:16,203 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-13 19:48:05,899 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:48:05,900 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\main\resources
+2022-05-13 19:48:05,900 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:48:05,901 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCutting\src\test\resources
+2022-05-13 19:48:07,960 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:48:07,961 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:48:07,962 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:48:07,963 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 19:51:20,935 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:51:20,936 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 19:51:20,937 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 19:51:20,937 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:00:08,377 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:00:08,378 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:00:08,379 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:00:08,379 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:18:55,779 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:18:55,780 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:18:55,781 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:18:55,781 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:19:50,765 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:19:50,768 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:19:50,769 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:19:50,770 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:20:16,015 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:20:16,016 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:20:16,016 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:20:16,017 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:21:15,642 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:21:15,643 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:21:15,644 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:21:15,645 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:22:27,514 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: co.edu.uco.grades:DataGrades:0.0.1-SNAPSHOT @ C:\Users\MATEO\eclipse-workspace2\DataGrades\pom.xml.
+2022-05-13 20:22:27,522 [Worker-66: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 20:22:27,522 [Worker-66: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 20:22:27,522 [Worker-66: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 20:22:27,691 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:22:27,691 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:22:27,692 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:22:27,693 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:24:06,356 [Worker-70: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOGrades: co.edu.uco.grades:DTOGrades:0.0.1-SNAPSHOT with classifier  to /DTOGrades/target/classes
+2022-05-13 20:24:06,356 [Worker-70: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 20:24:06,356 [Worker-70: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 20:24:06,358 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:24:06,359 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:24:06,360 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:24:06,360 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:30:51,715 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:30:51,716 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:30:51,716 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:30:51,717 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:38:49,709 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:38:49,710 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:38:49,711 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:38:49,711 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:42:54,323 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:42:54,324 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:42:54,325 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:42:54,325 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:44:12,320 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:44:12,328 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:44:12,329 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:44:12,330 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:45:27,977 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:45:27,978 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:45:27,980 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:45:27,981 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:45:39,755 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:45:39,756 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:45:39,756 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:45:39,757 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:48:42,247 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:48:42,248 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:48:42,248 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:48:42,249 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 20:57:08,904 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:57:08,905 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 20:57:08,905 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 20:57:08,906 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 21:01:01,669 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:01:01,670 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 21:01:01,671 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:01:01,671 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 21:06:00,662 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:06:00,663 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 21:06:00,664 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:06:00,664 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 21:18:16,096 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:18:16,097 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 21:18:16,097 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:18:16,098 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 21:34:46,869 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCuttingGrades: co.edu.uco.grades:CrossCuttingGrades:0.0.1-SNAPSHOT with classifier  to /CrossCuttingGrades/target/classes
+2022-05-13 21:34:46,869 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CrossCutting: co.edu.co.crosscutting:CrossCutting:0.0.1-SNAPSHOT with classifier  to /CrossCutting/target/classes
+2022-05-13 21:34:46,871 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:34:46,872 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\main\resources
+2022-05-13 21:34:46,873 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:34:46,873 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\test\resources
+2022-05-13 21:37:19,411 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,412 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\main\resources
+2022-05-13 21:37:19,413 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,414 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\CrossCuttingGrades\src\test\resources
+2022-05-13 21:37:19,420 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,421 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\main\resources
+2022-05-13 21:37:19,422 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,422 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\test\resources
+2022-05-13 21:37:19,443 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,444 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\main\resources
+2022-05-13 21:37:19,445 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 21:37:19,445 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DataGrades\src\test\resources
+2022-05-13 22:13:35,498 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 22:13:35,500 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\main\resources
+2022-05-13 22:13:35,501 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-05-13 22:13:35,501 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MATEO\eclipse-workspace2\DTOGrades\src\test\resources

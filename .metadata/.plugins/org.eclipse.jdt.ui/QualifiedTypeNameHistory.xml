@@ -3,10 +3,22 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.params.converter.DefaultArgumentConverter"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
-    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.StudentDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.dto.StudentDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.data.factory.DAOFactory"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="co.edu.uco.grades.data.factory.azuresql.AzureSqloDaoFactory"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.object.UtilObject"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.crosscutting.exception.GradesException"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.sql.UtilConnection"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.crosscutting.exception.enumeration.ExceptionType"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.crosscutting.exception.enumeration.ExceptionLocation"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.connection.ConnectionSQL"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.data.dao.azuresql.StudentAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="co.edu.uco.grades.dto.IdTypeDto"/>
+    <fullyQualifiedTypeName name="co.edu.uco.crosscutting.util.text.UtilText"/>
 </qualifiedTypeNameHistroy>
