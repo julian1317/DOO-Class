@@ -7,23 +7,24 @@ import co.edu.uco.crosscutting.exception.GeneralException;
 import co.edu.uco.crosscutting.util.object.UtilObject;
 
 public class UtilConnection {
-	private UtilConnection() {
 
+	private UtilConnection() {
 	}
 
 	public static boolean isClosed(Connection connection) {
 
 		if (UtilObject.getUtilObject().isNull(connection)) {
-			throw GeneralException.build("connectio is null!!");
+			throw GeneralException.build("Connection is null!!!");
 		}
+
 		try {
 			return connection.isClosed();
 		} catch (SQLException exception) {
-			throw GeneralException.build("problems trying to validate if connection was closed!", exception);
+			throw GeneralException.build("Problems trying to validate if connection was closed!", exception);
 		}
 	}
-	
-	public static  boolean isOpen(Connection connection) {
-		return ( !isClosed(connection));
+
+	public static boolean isOpen(Connection connection) {
+		return !isClosed(connection);
 	}
 }

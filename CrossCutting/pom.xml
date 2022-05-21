@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>co.edu.co.crosscutting</groupId>
+  <groupId>co.edu.uco.crosscutting</groupId>
   <artifactId>CrossCutting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>CrossCutting</name>
-  <description>componente que contiene la utilidad que puede ser usada por cualquier otro componente en la versio de java 17</description>
+  <description>Componente que contiene toda la base utilitaria que puede ser utilizada por cualquier otro proyecto Java en la versión Java 17.</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>test</testSourceDirectory>

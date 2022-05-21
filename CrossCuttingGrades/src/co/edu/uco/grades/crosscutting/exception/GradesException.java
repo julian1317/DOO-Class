@@ -8,15 +8,15 @@ import co.edu.uco.grades.crosscutting.exception.enumeration.ExceptionType;
 
 public class GradesException extends GeneralException {
 
-	private static final long serialVersionUID = -1820624074583512374L;
+	private static final long serialVersionUID = 625249639280789375L;
+
 	private ExceptionType type;
 	private ExceptionLocation location;
 
-	private GradesException(String userMessage, String technicalMessage, String rootException, ExceptionType technical,
-			String location2) {
+	private GradesException(String userMessage, String technicalMessage, Exception rootException, ExceptionType type, ExceptionLocation location) {
 		super(userMessage, technicalMessage, rootException);
-		setType(technical);
-		setLocation(location2);
+		setType(type);
+		setLocation(location);
 	}
 
 	public static GradesException buildUserException(String userMessage) {
@@ -26,22 +26,30 @@ public class GradesException extends GeneralException {
 	public static GradesException buildTechnicalException(String technicalMessage) {
 		return new GradesException(null, technicalMessage, null, ExceptionType.TECHNICAL, null);
 	}
-	
 
-	public static GradesException buildTechnicalException(String technicalMessage, Exception rootException,
-			ExceptionType type, ExceptionLocation location) {
-		return new GradesException(null, technicalMessage, rootException, type, location);
+	public static GradesException buildTechnicalException(String technicalMessage, Exception rootException, ExceptionLocation location) {
+		return new GradesException(null, technicalMessage, rootException, ExceptionType.TECHNICAL, location);
 	}
+
 	public static GradesException buildTechnicalDataException(String technicalMessage) {
-		return new GradesException(null, technicalMessage, ExceptionType.TECHNICAL, ExceptionLocation.DATA);
+		return new GradesException(null, technicalMessage, null, ExceptionType.TECHNICAL, ExceptionLocation.DATA);
+	}
+
+	public static GradesException buildTechnicalBusinessException(String technicalMessage) {
+		return new GradesException(null, technicalMessage, null, ExceptionType.TECHNICAL, ExceptionLocation.BUSINESS_LOGIC);
+	}
+
+	
+	public static GradesException buildTechnicalDataException(String technicalMessage, Exception rootException) {
+		return new GradesException(null, technicalMessage, rootException, ExceptionType.TECHNICAL, ExceptionLocation.DATA);
 	}
 
 	public static GradesException build(String userMessage, String technicalMessage) {
-		return new GradesException(userMessage, userMessage, null, null, null);
+		return new GradesException(userMessage, technicalMessage, null, null, null);
 	}
 
 	public static GradesException build(String userMessage, String technicalMessage, Exception rootException) {
-		return new GradesException(userMessage, userMessage, null, null, null);
+		return new GradesException(userMessage, technicalMessage, rootException, null, null);
 	}
 
 	private void setType(ExceptionType type) {
@@ -50,7 +58,6 @@ public class GradesException extends GeneralException {
 
 	private void setLocation(ExceptionLocation location) {
 		this.location = getUtilObject().getDefault(location, ExceptionLocation.GENERAL);
-		;
 	}
 
 	public ExceptionType getType() {
@@ -60,5 +67,4 @@ public class GradesException extends GeneralException {
 	public ExceptionLocation getLocation() {
 		return location;
 	}
-
 }

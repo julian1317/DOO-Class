@@ -1,4 +1,4 @@
-package co.edu.co.grades.api.init;
+package co.edu.uco.grades.api.init;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
