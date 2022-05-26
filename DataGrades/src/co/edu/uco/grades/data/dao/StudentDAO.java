@@ -1,5 +1,8 @@
 package co.edu.uco.grades.data.dao;
 
+import java.util.List;
+
+
 import co.edu.uco.grades.dto.StudentDTO;
 
 public interface StudentDAO {
@@ -10,5 +13,6 @@ public interface StudentDAO {
 
 	void delete(int id);
 
-	void find(StudentDTO student);
+
+	List<StudentDTO> find (StudentDTO student);
 }

@@ -20,6 +20,7 @@ public class AzureSqlDAOFactory extends DAOFactory {
 	private AzureSqlDAOFactory() {
 		openConnection();
 	}
+
 	public static DAOFactory create() {
 		return new AzureSqlDAOFactory();
 	}
