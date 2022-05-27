@@ -2,6 +2,8 @@ package co.edu.uco.grades.dto;
 
 import java.sql.Date;
 
+import co.edu.uco.crosscutting.util.object.UtilObject;
+
 
 
 public class CourseDTO {
@@ -36,7 +38,7 @@ public class CourseDTO {
 		return subject;
 	}
 	public void setSubject(SubjectDTO subject) {
-		this.subject = subject;
+		this.subject = UtilObject.getUtilObject().getDefault(subject, new SubjectDTO());
 	}
 	public Date getInitialDate() {
 		return initialDate;

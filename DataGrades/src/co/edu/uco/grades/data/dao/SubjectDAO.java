@@ -5,6 +5,7 @@ import java.util.List;
 import co.edu.uco.grades.dto.SubjectDTO;
 
 public interface SubjectDAO {
+	
 	void create(SubjectDTO idType);
 
 	void update(SubjectDTO idType);

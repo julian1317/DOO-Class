@@ -4,18 +4,17 @@ import java.sql.Connection;
 import java.util.List;
 
 import co.edu.uco.grades.data.dao.ProfessorDAO;
-import co.edu.uco.grades.data.dao.StudentDAO;
 import co.edu.uco.grades.data.dao.connection.ConnectionSQL;
 import co.edu.uco.grades.dto.ProfessorDTO;
 
-public class ProfeessorAzureSqlDAO extends ConnectionSQL implements ProfessorDAO{
+public class ProfessorAzureSqlDAO extends ConnectionSQL implements ProfessorDAO{
 
-	protected ProfeessorAzureSqlDAO(Connection connection) {
+	protected ProfessorAzureSqlDAO(Connection connection) {
 		super(connection);
 		// TODO Auto-generated constructor stub
 	}
 	public static ProfessorDAO build(Connection connection) {
-		return new ProfeessorAzureSqlDAO(connection);
+		return new ProfessorAzureSqlDAO(connection);
 	}
 	@Override
 	public void create(ProfessorDTO idType) {
