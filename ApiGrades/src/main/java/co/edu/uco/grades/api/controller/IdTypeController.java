@@ -81,6 +81,7 @@ public class IdTypeController {
 	@PutMapping("/{id}")
 	public ResponseEntity<Response<IdTypeDTO>> update(@PathVariable("id") int id, @RequestBody IdTypeDTO dto) {
 		
+		
 		Validator<IdTypeDTO> validator = new UpdateIdTypeValidator();
 		List<String> messages = UtilObject.getUtilObject().getDefault(validator.validate(dto), new ArrayList<>());
 		Response<IdTypeDTO> response = new Response<>();
@@ -89,7 +90,7 @@ public class IdTypeController {
 		
 		if (messages.isEmpty()) {
 			try {
-				IdTypeDTO updateDTO = new IdTypeDTO(id, dto.getName());
+				IdTypeDTO updateDTO = new IdTypeDTO(dto.getId(), dto.getName());
 				IdTypeFacade facade = new IdTypeFacadeImpl();
 				facade.update(updateDTO);
 				messages.add("Id type was updated succesfully!");

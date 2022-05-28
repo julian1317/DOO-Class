@@ -41,6 +41,8 @@ public class IdTypeBusinessImpl implements IdTypeBusiness {
 
 	@Override
 	public void update(IdTypeDTO dto) {
+		
+		thisNameIsAlreadyUseByThisId(dto);
 		validateIdTypeDoesNotExist(dto);
 		validateIdTypeDoesNotExistWithSameName(dto);
 		daoFactory.getIdTypeDAO().update(dto);
@@ -66,6 +68,7 @@ public class IdTypeBusinessImpl implements IdTypeBusiness {
 		IdTypeDTO dtoValidator = new IdTypeDTO();
 		dtoValidator.setId(dto.getId());
 		List<IdTypeDTO> list =daoFactory.getIdTypeDAO().find(dtoValidator);
+		
 		if(list.isEmpty()) {
 			var message="this id does not exist";
 			throw GradesException.buildBusinessLogicException(message);
@@ -86,7 +89,32 @@ public class IdTypeBusinessImpl implements IdTypeBusiness {
 			
 		}
 		return daoFactory.getIdTypeDAO().findById(dto);
+		
 	}
+	
+	private void thisNameIsAlreadyUseByThisId(IdTypeDTO dto) {
+		IdTypeDTO dtoValidator = new IdTypeDTO();
+		dtoValidator.setName(dto.getName());
+		List<IdTypeDTO> list =daoFactory.getIdTypeDAO().find(dtoValidator);
+		
+		if(!list.isEmpty()) {
+			 for (int index=0;index<list.size();index++) {
+				 if(list.get(index).getId()==dto.getId()) {
+					 var message="this name is already in use by this id";
+					throw GradesException.buildBusinessLogicException(message);
+				 }
+				 
+			 }
+			var message="an id type with the same name alredy exist";
+			throw GradesException.buildBusinessLogicException(message);
+			
+			
+		}
+	}
+	
+	
+	
+	
 	
 	
 	
