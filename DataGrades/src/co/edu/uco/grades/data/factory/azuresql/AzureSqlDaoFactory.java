@@ -7,8 +7,13 @@ import java.sql.SQLException;
 import co.edu.uco.crosscutting.util.sql.UtilConnection;
 import co.edu.uco.grades.crosscutting.exception.GradesException;
 import co.edu.uco.grades.crosscutting.exception.enumeration.ExceptionLocation;
+import co.edu.uco.grades.data.dao.AttendanceDAO;
+import co.edu.uco.grades.data.dao.CourseDAO;
 import co.edu.uco.grades.data.dao.IdTypeDAO;
 import co.edu.uco.grades.data.dao.ProfessorDAO;
+import co.edu.uco.grades.data.dao.SessionDAO;
+import co.edu.uco.grades.data.dao.StudentCourseDAO;
+import co.edu.uco.grades.data.dao.StudentCourseStateDAO;
 import co.edu.uco.grades.data.dao.StudentDAO;
 import co.edu.uco.grades.data.dao.SubjectDAO;
 import co.edu.uco.grades.data.dao.azuresql.IdTypeAzureSqlDAO;
@@ -144,6 +149,36 @@ public class AzureSqlDAOFactory extends DAOFactory {
 	@Override
 	public SubjectDAO getSubjectDAO() {
 		return SubjectAzureSqlDAO.build(getConnection());
+	}
+
+	@Override
+	public AttendanceDAO getAttendanceDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CourseDAO geCourseDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public SessionDAO getSessionDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentCourseDAO getCourseDAO() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentCourseStateDAO getStudentCourseStateDAO() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

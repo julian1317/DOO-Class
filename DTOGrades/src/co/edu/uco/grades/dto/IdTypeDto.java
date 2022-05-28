@@ -1,5 +1,9 @@
 package co.edu.uco.grades.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import co.edu.uco.crosscutting.util.object.UtilObject;
 import co.edu.uco.crosscutting.util.text.UtilText;
 
 public class IdTypeDTO {
@@ -32,5 +36,18 @@ public class IdTypeDTO {
 
 	public void setName(String name) {
 		this.name = UtilText.getDefault(name);
+	}
+	
+	public void  validateName(List<String> validationMessages){
+		  validationMessages = UtilObject.getUtilObject().getDefault(validationMessages, new ArrayList<String>() );
+
+		if(UtilText.isEmpty(getName())) {
+			validationMessages.add("name of id type is required!!");
+			
+		}else if(UtilText.getDefault(getName()).length()>50) {
+			validationMessages.add("lengh of name of id type must be less equal to 50!!");
+		}else if (!UtilText.getDefault(getName()).matches("^[a-zA-ZÒ—·¡È…ÌÕÛ”˙⁄ ]*$")) {
+			validationMessages.add("name of id type contains invalid characters");
+		}
 	}
 }
