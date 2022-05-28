@@ -13,4 +13,7 @@ public interface IdTypeBusiness {
 	void delete(int id);
 
 	List<IdTypeDTO> find(IdTypeDTO dto);
+	
+	List<IdTypeDTO> findById(IdTypeDTO dto);
+	
 }

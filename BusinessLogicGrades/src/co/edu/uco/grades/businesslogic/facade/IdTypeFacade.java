@@ -14,5 +14,9 @@ public interface IdTypeFacade {
 
 	List<IdTypeDTO> find(IdTypeDTO dto);
 	
+	List<IdTypeDTO> findById(IdTypeDTO dto);
+	
+	
+	
 
 }

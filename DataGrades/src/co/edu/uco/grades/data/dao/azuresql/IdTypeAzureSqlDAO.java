@@ -137,9 +137,11 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		} catch (GradesException exception) {
 			throw exception;
 		} catch (SQLException exception) {
-			throw GradesException.buildTechnicalDataException("There was a problem trying to execute the query for recovery the IdTypes on Azure SQL Server", exception);
+			throw GradesException.buildTechnicalDataException(
+					"There was a problem trying to execute the query for recovery the IdTypes on Azure SQL Server", exception);
 		} catch (Exception exception) {
-			throw GradesException.buildTechnicalDataException("An unexpected problem has ocurred trying to execute the query for recovery the IdTypes on Azure SQL Server", exception);
+			throw GradesException.buildTechnicalDataException(
+					"An unexpected problem has ocurred trying to execute the query for recovery the IdTypes on Azure SQL Server", exception);
 		}
 
 		return results;
@@ -177,6 +179,54 @@ public class IdTypeAzureSqlDAO extends ConnectionSQL implements IdTypeDAO {
 		}
 
 		return dto;
+	}
+
+	@Override
+	public List<IdTypeDTO> findById(IdTypeDTO idType) {
+		boolean setWhere = true;
+		List<Object> parameters = new ArrayList<>();
+		List<IdTypeDTO> results = new ArrayList<>();
+
+		StringBuilder sb = new StringBuilder();
+		sb.append("SELECT	id, name ");
+		sb.append("FROM		IdType").append(SPACE);
+
+		if (!UtilObject.getUtilObject().isNull(idType)) {
+
+			if (UtilNumeric.getUtilNumeric().isGreaterThan(idType.getId(), 0)) {
+				sb.append("WHERE id = ? ");
+				parameters.add(idType.getId());
+				setWhere = false;
+			}
+
+			if (!UtilText.isEmpty(idType.getName())) {
+				sb.append(setWhere ? "WHERE " : "AND ");
+				sb.append("name = ? ");
+				parameters.add(UtilText.trim(idType.getName()));
+			}
+		}
+
+		sb.append("ORDER BY	name ASC");
+
+		try (PreparedStatement preparedStatement = getConnection().prepareStatement(sb.toString())) {
+
+			for (int index = 0; index < parameters.size(); index++) {
+				preparedStatement.setObject(index + 1, parameters.get(index));
+			}
+
+			results = executeQuery(preparedStatement);
+
+		} catch (GradesException exception) {
+			throw exception;
+		} catch (SQLException exception) {
+			throw GradesException.buildTechnicalDataException("There was a problem trying to retrive the IdTypes on Azure SQL Server", exception);
+		} catch (Exception exception) {
+			throw GradesException.buildTechnicalDataException("An unexpected problem has ocurred trying to retrieve the IdTypes on Azure SQL Server", exception);
+		}
+
+		return results;
+
+		
 	}
 
 }
